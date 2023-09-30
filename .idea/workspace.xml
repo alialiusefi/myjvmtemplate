@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af1fb6a-b211-449c-8abb-4e429afd29b5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0af1fb6a-b211-449c-8abb-4e429afd29b5" name="Changes" comment="init kotlin">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql.config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/src/main/kotlin/my/jvm/template/kotlin/springboot3/Application.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/src/main/kotlin/my/jvm/template/kotlin/springboot3/controller/graphql/mutation/ReturnMeMutation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/src/main/kotlin/my/jvm/template/kotlin/springboot3/controller/graphql/query/HelloWorldQuery.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/src/main/resources/graphql/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/kotlin/spring-boot-3.kotlin.main.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-3/kotlin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-3/kotlin/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-3/kotlin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-3/kotlin/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-3/kotlin/src/main/kotlin/my/jvm/template/kotlin/springboot3/Application.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-3/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-3/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +34,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/spring-boot-3">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/spring-boot-3/kotlin-reactive">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -42,6 +58,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="KotlinScriptingSettings">
+    <scriptDefinition className="org.jetbrains.kotlin.scripting.resolve.KotlinScriptDefinitionFromAnnotatedTemplate" definitionName="KotlinSettingsScript">
+      <order>2147483647</order>
+      <autoReloadConfigurations>true</autoReloadConfigurations>
+    </scriptDefinition>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -54,26 +77,89 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ali/Desktop/mylocalrepos/myjvmtemplate",
+    "last_opened_file_path": "/Users/ali/Desktop/mylocalrepos/myjvmtemplate/spring-boot-3/kotlin-reactive/src/main/resources/graphql",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "GraphQL"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/src/main/resources/graphql" />
+      <recent name="$PROJECT_DIR$/spring-boot-3/kotlin/src/main/kotlin/my/jvm/template/kotlin/springboot3/controller/graphql" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-boot-3" />
     </key>
   </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="spring-boot-3 [graphqlGenerateSDL]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot-3" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="graphqlGenerateSDL" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-3.kotlin-reactive.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="my.jvm.template.kotlin.springboot3.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.jvm.template.kotlin.springboot3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Gradle.spring-boot-3 [graphqlGenerateSDL]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StandaloneScriptsStorage">
+    <option name="files">
+      <set>
+        <option value="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/settings.gradle.kts" />
+      </set>
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0af1fb6a-b211-449c-8abb-4e429afd29b5" name="Changes" comment="" />
@@ -81,8 +167,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695994679019</updated>
-      <workItem from="1695995753181" duration="1826000" />
+      <workItem from="1695995753181" duration="9725000" />
+      <workItem from="1696066038105" duration="2317000" />
     </task>
+    <task id="LOCAL-00001" summary="init kotlin">
+      <option name="closed" value="true" />
+      <created>1695997716203</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695997716203</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +206,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="init kotlin" />
   </component>
 </project>
