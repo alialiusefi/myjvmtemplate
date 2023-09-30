@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af1fb6a-b211-449c-8abb-4e429afd29b5" name="Changes" comment="init kotlin">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql.config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/src/main/kotlin/my/jvm/template/kotlin/springboot3/Application.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/src/main/kotlin/my/jvm/template/kotlin/springboot3/controller/graphql/mutation/ReturnMeMutation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/src/main/kotlin/my/jvm/template/kotlin/springboot3/controller/graphql/query/HelloWorldQuery.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/src/main/resources/graphql/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kotlin/spring-boot-3.kotlin.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-3/kotlin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-3/kotlin/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-3/kotlin/src/main/kotlin/my/jvm/template/kotlin/springboot3/Application.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-3/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-3/settings.gradle.kts" afterDir="false" />
-    </list>
+    <list default="true" id="0af1fb6a-b211-449c-8abb-4e429afd29b5" name="Changes" comment="init kotlin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695994679019</updated>
       <workItem from="1695995753181" duration="9725000" />
-      <workItem from="1696066038105" duration="2317000" />
+      <workItem from="1696066038105" duration="2700000" />
     </task>
     <task id="LOCAL-00001" summary="init kotlin">
       <option name="closed" value="true" />
@@ -178,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695997716203</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init kotlin">
+      <option name="closed" value="true" />
+      <created>1696068509606</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696068509606</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
