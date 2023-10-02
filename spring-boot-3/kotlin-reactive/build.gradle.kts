@@ -2,16 +2,16 @@ import com.expediagroup.graphql.plugin.gradle.tasks.GraphQLGenerateSDLTask
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
+    // kotlin
+    kotlin("jvm") version "1.8.22"
+    kotlin("plugin.spring") version "1.8.22"
+
     // spring
     id("org.springframework.boot") version "3.1.4"
     id("io.spring.dependency-management") version "1.1.3"
 
     // graphlql
     id("com.expediagroup.graphql") version "7.0.1"
-
-    // kotlin
-    kotlin("jvm") version "1.8.22"
-    kotlin("plugin.spring") version "1.8.22"
 }
 
 group = "my.jvm"
@@ -37,21 +37,14 @@ dependencies {
     implementation("com.expediagroup:graphql-kotlin-hooks-provider:7.0.1")
     implementation("com.graphql-java:graphql-java:21.1")
 
+    // grpc
+
     // rest
 
 
     // client
     // https://www.baeldung.com/guide-to-okhttp
     // implementation("com.squareup.okhttp3:okhttp")
-
-    // jackson
-
-    // grpc
-
-    // arrow kt
-
-
-
 
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
@@ -65,7 +58,7 @@ graphql {
 
 tasks.withType<GraphQLGenerateSDLTask> {
     packages.add("my.jvm.template.kotlin.springboot3.controller.graphql")
-    schemaFile.set(file("${project.projectDir}/src/main/resources/graphql/schema.graphql"))
+    schemaFile = file("${project.projectDir}/src/main/resources/graphql/schema.graphql")
 }
 
 tasks.withType<KotlinCompile> {
@@ -77,4 +70,8 @@ tasks.withType<KotlinCompile> {
 
 tasks.withType<Test> {
     useJUnitPlatform()
+}
+
+tasks.named<BootJar>("bootJar") {
+    archiveFileName = "${project.name}.jar"
 }
