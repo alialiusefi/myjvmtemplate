@@ -73,6 +73,10 @@ tasks.withType<Test> {
     useJUnitPlatform()
 }
 
+springBoot {
+    mainClass = "my.jvm.template.kotlin.springboot3.ApplicationKt"
+}
+
 tasks.named<BootJar>("bootJar") {
     archiveFileName = "${project.name}.jar"
 }
