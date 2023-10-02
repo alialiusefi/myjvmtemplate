@@ -4,6 +4,6 @@ services:
   app:
     image: 'java-reactive:latest'
     ports:
-      - "8080:8080"
+      - "8081:8080"
     build:
       context: .

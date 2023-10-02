@@ -74,7 +74,7 @@ tasks.withType<Test> {
 }
 
 springBoot {
-    mainClass = "my.jvm.template.kotlin.springboot3.ApplicationKt"
+    mainClass = "my.jvm.kotlin.template.springboot3.ApplicationKt"
 }
 
 tasks.named<BootJar>("bootJar") {

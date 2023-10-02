@@ -30,7 +30,7 @@ tasks.test {
 }
 
 springBoot {
-    mainClass = "my.jvm.template.java.springboot3.Application"
+    mainClass = "my.jvm.java.template.springboot3.Application"
 }
 
 tasks.named<BootJar>("bootJar") {

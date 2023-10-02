@@ -1,4 +1,4 @@
-package my.jvm.template.kotlin.springboot3.controller.graphql.query
+package my.jvm.kotlin.template.springboot3.controller.graphql.query
 
 import com.expediagroup.graphql.server.operations.Query
 import org.springframework.stereotype.Component

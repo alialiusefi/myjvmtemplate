@@ -1,4 +1,4 @@
-package my.jvm.template.kotlin.springboot3
+package my.jvm.kotlin.template.springboot3
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.context.properties.ConfigurationPropertiesScan
