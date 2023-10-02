@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0af1fb6a-b211-449c-8abb-4e429afd29b5" name="Changes" comment="kotlionm">
-      <change afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/Dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-3/kotlin-reactive/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +201,7 @@
       <workItem from="1696066038105" duration="5714000" />
       <workItem from="1696214390498" duration="412000" />
       <workItem from="1696214808237" duration="8841000" />
-      <workItem from="1696243174007" duration="5280000" />
+      <workItem from="1696243174007" duration="5519000" />
     </task>
     <task id="LOCAL-00001" summary="init kotlin">
       <option name="closed" value="true" />
@@ -262,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696244049274</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="kotlionm">
+      <option name="closed" value="true" />
+      <created>1696248598011</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696248598011</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
