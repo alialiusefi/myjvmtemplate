@@ -1,3 +1,5 @@
+import org.springframework.boot.gradle.tasks.bundling.BootJar
+
 plugins {
     java
     id("org.springframework.boot") version "3.1.4"
@@ -25,4 +27,12 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+springBoot {
+    mainClass = "my.jvm.template.java.springboot3.Application"
+}
+
+tasks.named<BootJar>("bootJar") {
+    archiveFileName = "${project.name}.jar"
 }
