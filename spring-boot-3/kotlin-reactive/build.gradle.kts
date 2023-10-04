@@ -1,5 +1,6 @@
 import com.expediagroup.graphql.plugin.gradle.tasks.GraphQLGenerateSDLTask
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import org.springframework.boot.gradle.tasks.bundling.BootBuildImage
 import org.springframework.boot.gradle.tasks.bundling.BootJar
 
 plugins {
@@ -73,10 +74,7 @@ tasks.withType<Test> {
     useJUnitPlatform()
 }
 
-springBoot {
-    mainClass = "my.jvm.kotlin.template.springboot3.ApplicationKt"
-}
-
 tasks.named<BootJar>("bootJar") {
     archiveFileName = "${project.name}.jar"
 }
+

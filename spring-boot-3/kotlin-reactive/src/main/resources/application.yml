@@ -1,5 +1,5 @@
 graphql:
   packages:
-    - "my.jvm.template.kotlin.springboot3.controller.graphql"
+    - "my.jvm.kotlin.template.springboot3.controller.graphql"
   playground:
     enabled: true
