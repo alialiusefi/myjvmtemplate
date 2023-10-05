@@ -15,7 +15,7 @@ spec:
     metadata:
       creationTimestamp: null
       labels:
-        app: java-reactive
+        app: kotlin-reactive
     spec:
       containers:
       - image: kotlin-reactive:latest
