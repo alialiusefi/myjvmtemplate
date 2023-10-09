@@ -1,7 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  creationTimestamp: null
   labels:
     app: java-reactive
   name: java-reactive
@@ -13,12 +12,11 @@ spec:
   strategy: {}
   template:
     metadata:
-      creationTimestamp: null
       labels:
         app: java-reactive
     spec:
       containers:
-      - image: java-reactive:latest
+      - image: java-reactive:0.0.1-SNAPSHOT
         name: java-reactive-44zzg
         imagePullPolicy: Never
         resources: {}
