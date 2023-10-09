@@ -1,0 +1,1 @@
+print_me: ${PRINT_ME:"Hello from application.yml!"}

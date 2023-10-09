@@ -18,6 +18,11 @@ spec:
       containers:
       - image: java-reactive:0.0.1-SNAPSHOT
         name: java-reactive-44zzg
-        imagePullPolicy: Never
+        imagePullPolicy: IfNotPresent
         resources: {}
-status: {}
+        env:
+          - name: PRINT_ME
+            valueFrom:
+              configMapKeyRef:
+                name: java-reactive-config
+                key: print_me
