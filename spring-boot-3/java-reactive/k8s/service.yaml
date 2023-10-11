@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: java-reactive
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: java-reactive
   ports:
