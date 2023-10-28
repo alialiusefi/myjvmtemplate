@@ -1,1 +1,4 @@
 print_me: ${PRINT_ME:"Hello from application.yml!"}
+springdoc:
+  api-docs:
+    path: /api-docs
